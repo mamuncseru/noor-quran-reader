@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noor Quran Reader</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      .font-amiri { font-family: 'Amiri', serif; }
+      .font-hind { font-family: 'Hind Siliguri', sans-serif; }
+      .font-inter { font-family: 'Inter', sans-serif; }
+      
+      body {
+        background-color: #fdfbf7;
+        color: #1f2937;
+        scrollbar-gutter: stable;
+      }
+
+      /* Custom Scrollbar for the paper aesthetic */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #fdfbf7;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #e5e7eb;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #d1d5db;
+      }
+
+      @keyframes bismillah-fade {
+        0%, 100% { opacity: 0.3; transform: scale(0.98); }
+        50% { opacity: 1; transform: scale(1); }
+      }
+      .animate-bismillah {
+        animation: bismillah-fade 2s ease-in-out infinite;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom": "https://esm.sh/react-dom@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.2.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-B5Tzc9I5.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
