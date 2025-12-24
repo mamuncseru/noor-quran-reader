@@ -19,8 +19,7 @@
 
 ## 🚀 Live Demo
 
-**[View the Live Application Here](https://YOUR_USERNAME.github.io/noor-quran-reader)**
-*(Replace this link after you deploy!)*
+**[View the Live Application Here](https://mamuncseru.github.io/noor-quran-reader)**
 
 ## 🛠️ Technology Stack
 
@@ -36,7 +35,7 @@ Since this app is independent, you can run it entirely on your local machine.
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/noor-quran-reader.git](https://github.com/YOUR_USERNAME/noor-quran-reader.git)
+    git clone [https://github.com/mamuncseru/noor-quran-reader.git](https://github.com/mamuncseru/noor-quran-reader.git)
     cd noor-quran-reader
     ```
 
