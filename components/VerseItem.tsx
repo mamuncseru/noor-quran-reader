@@ -17,9 +17,12 @@ const VerseItem: React.FC<VerseItemProps> = ({ verse, verseNumber, showEnglish, 
           <span className="flex items-center justify-center w-8 h-8 rounded-full border border-gray-200 text-xs text-gray-400 font-inter">
             {verseNumber}
           </span>
-          <p className="font-amiri text-4xl md:text-5xl text-right leading-[1.8] text-[#1f2937] max-w-4xl" dir="rtl">
+          <p className="font-amiri text-4xl md:text-5xl text-right leading-[3] text-[#1f2937] max-w-4xl" 
+          dir="rtl"
+          style={{ lineHeight: '2' }}
+          >
             {verse.arabic}
-          </p>
+        </p>
         </div>
         
         <div className="flex flex-col gap-4 pl-4 md:pl-12 border-l border-gray-100">
